@@ -1,7 +1,7 @@
 import React from "react";
 import { FcDeleteDatabase } from "react-icons/fc";
 import { useDispatch } from "react-redux";
-import { remove } from "../redux/slices/cartSlice";
+import { remove } from "../redux/slices/CartSlice";
 import toast from "react-hot-toast";
 
 export default function CartItem({ item, itemIndex }) {
