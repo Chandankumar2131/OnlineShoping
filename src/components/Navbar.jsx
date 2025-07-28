@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
-import Logo from "../assets/Logo.JPg";
+import Logo from "../assets/Logo.jpg";
 import { useSelector } from "react-redux";
 
 export default function Navbar() {
